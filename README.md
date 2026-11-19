@@ -1,5 +1,11 @@
 # Day 11 — Controlled Agent Security (2026)
 
+**Học viên:** Nguyễn Thị Thùy Dung · **MSSV:** 2A202603552 · **Khóa:** K5 · **Lớp:** L3A
+
+**Lab:** Day 11 – Guardrails, HITL & Responsible AI
+
+**Môi trường thực nghiệm:** Blue dùng Liquid API trực tiếp; Red và Red Advance dùng `gemini-3.1-flash-lite`. Model `gemini-3.5-flash` theo rubric đã được thử hai lần nhưng đều trả `503 UNAVAILABLE` trước bộ prompt. Kết quả CP4 được sinh bằng API thật trên model thay thế. Việc công nhận model và provider thay thế thuộc thẩm quyền của Coach.
+
 > 👤 **Hình thức:** bài tập **cá nhân** (1 người / 1 MSSV).  
 > 🎯 **Mục tiêu:** đóng vai **Blue Team** để học cách xây Guardrails phòng thủ, rồi đóng vai **Red Team** để tấn công agent **Red** hoặc **Red Advance**.  
 > ✅ Làm theo **Checkpoint 1 → 5** trong [`CHECKPOINTS.md`](CHECKPOINTS.md) · nộp theo [`SUBMISSION.md`](SUBMISSION.md).
